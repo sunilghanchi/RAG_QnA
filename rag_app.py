@@ -49,7 +49,7 @@ if upload_file is not None:
     retriever = docsearch.as_retriever()
 
     llm = ChatGroq(
-        groq_api_key="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",
+        groq_api_key="key",
         model_name='mixtral-8x7b-32768'
     )
 
